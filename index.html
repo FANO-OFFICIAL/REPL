@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>REPL</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style class="editable">
+      
+    </style>
+  </head>
+
+  <body>
+	<div class="repl">
+	<div class="repl-h2">Zone de rendu</div>
+	<section class="preview">
+
+      Ceci est mon texte.
+
+    </section>
+	
+	<div class="repl-h2">Code modifiable</div>
+    <div class="repl-p">Pressez <kbd>Esc</kbd> pour sortir le focus de la Zone de saisie(<kbd>Tab</kbd> insère une tabulation).</div>
+
+    <!-- <textarea class="playable playable-css" style="height: 130px;">
+h1, h2 {
+  color: purple;
+}
+
+p {
+  color: gray;
+}
+    </textarea> -->
+
+    <textarea class="playable playable-html" style="height: 220px;">Ceci est mon texte</textarea>
+
+    <div class="playable-buttons">
+      <button id="reset">Réinitialiser</button>
+      <button id="show-result">Montrer la solution</button>
+    </div>
+	</div>
+  </body>
+  <script src="script.js"></script>
+</html>
